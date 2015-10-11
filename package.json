@@ -1,0 +1,29 @@
+{
+  "name": "colour-contrast-api",
+  "version": "1.0.0",
+  "description": "An api to check colour contrast",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/.bin/jasmine-node spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lifeofmle/colour-contrast-api.git"
+  },
+  "author": "lifeofmle",
+  "bugs": {
+    "url": "https://github.com/lifeofmle/colour-contrast-api/issues"
+  },
+  "homepage": "https://github.com/lifeofmle/colour-contrast-api",
+  "devDependencies": {
+    "body-parser": "~1.0.1",
+    "express": "~4.0.0",
+    "gulp-jasmine": "^2.1.0",
+    "require-dir": "^0.3.0"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "jasmine-node": "^1.14.5",
+    "request": "^2.64.0"
+  }
+}
